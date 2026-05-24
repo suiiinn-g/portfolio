@@ -1,0 +1,281 @@
+import type { Content } from "./content";
+
+export const content: Content = {
+  meta: {
+    title: "关敬心 · 个人主页",
+    description:
+      "伦敦政治经济学院战略传播硕士，市场策略 · 数据驱动 · 产品思维 · 跨文化视野",
+  },
+
+  nav: {
+    logo: "关敬心",
+    links: [
+      { id: "about", label: "关于我" },
+      { id: "education", label: "教育背景" },
+      { id: "experience", label: "实习经历" },
+      { id: "projects", label: "项目经历" },
+      { id: "skills", label: "专业技能" },
+      { id: "contact", label: "联系我" },
+    ],
+    langToggle: "EN",
+  },
+
+  hero: {
+    eyebrow: "伦敦政经 · 南京大学 · 字节跳动 · 百度",
+    name: { line1: "关敬心", line2: "" },
+    tagline: ["市场策略 · 数据驱动 · 产品思维 · 跨文化视野"],
+    bio: [
+      "伦敦政治经济学院战略传播硕士在读",
+      "3国求学 · 4所高校",
+      "市场营销 · 数据分析 · 产品运营 · 商业咨询",
+    ],
+    cta: { primary: "下载简历 ↓", secondary: "联系我" },
+  },
+
+  stats: [
+    { value: 800, suffix: "+", label: "街舞社成员" },
+    { value: 100, suffix: "K+", label: "活动曝光量" },
+    { value: 4000, suffix: "+", label: "赛事报名团队" },
+    { value: 3, suffix: "", label: "留学国家 · 4所高校" },
+  ],
+
+  about: {
+    label: "关于我",
+    heading: { line1: "营销 · 数据 · 产品", line2: "多维能力，一体思维" },
+    paragraphs: [
+      "目前就读于**伦敦政治经济学院战略传播与社会硕士**项目，本科毕业于**南京大学新闻传播学院**，并有**加州大学伯克利分校**及**斯特灵大学**的交换学习经历。",
+      "能力横跨**市场策略、产品思维与数据分析**——在百度主导破百万曝光的赛事传播，在字节跳动搭建产品运营SOP，在 BlackMont 咨询交付商业战略方案。",
+      "具备中英双语和跨文化沟通能力，能够灵活穿梭于**东西方市场**，将结构化思维与传播直觉融入每一个项目——无论是品牌传播、产品运营还是商业咨询。",
+    ],
+    beyondWork: {
+      label: "工作之外",
+      pills: ["古筝 10年+", "街舞 8年+", "摄影", "旅行", "健身"],
+    },
+  },
+
+  education: {
+    label: "教育背景",
+    heading: { line1: "3国求学，", line2: "4所高校" },
+    cards: [
+      {
+        year: "2025 – 2026 · 英国伦敦",
+        school: "伦敦政治经济学院",
+        degree: "战略传播与社会 硕士",
+        domain: "lse.ac.uk",
+      },
+      {
+        year: "2021 – 2025 · 中国南京",
+        school: "南京大学",
+        degree: "新闻学 本科 · GPA 4.50 / 5.0",
+        domain: "nju.edu.cn",
+      },
+      {
+        year: "2023 · 美国伯克利",
+        school: "加州大学伯克利分校",
+        degree: "暑期交换 · GPA 5.0 / 5.0",
+        domain: "berkeley.edu",
+      },
+      {
+        year: "2024 · 英国斯特灵",
+        school: "斯特灵大学",
+        degree: "在线交换 · Distinction",
+        domain: "stir.ac.uk",
+      },
+    ],
+  },
+
+  experience: {
+    label: "实习经历",
+    groups: [
+      {
+        title: "实习经历",
+        items: [
+          {
+            date: "2026年1月 – 4月",
+            role: "商业咨询实习生",
+            org: "BlackMont 咨询 · 英国伦敦",
+            domain: "blackmontconsulting.com",
+            bullets: [
+              "针对刚果（金）竹炭价值链规模化瓶颈，设计端到端运营蓝图（泳道图 + RACI），支持标准化复制落地",
+              "系统梳理监管合规与 MRV 核查要求，制定灵活标准化策略，降低融资路径不确定性",
+              "整合跨团队分析，提炼结构清晰的战略洞察，转化为对齐投资方决策逻辑的融资提案讲稿",
+            ],
+          },
+          {
+            date: "2024年8月 – 10月",
+            role: "产品运营实习生",
+            org: "字节跳动（TikTok）· Trea IDE · 北京",
+            domain: "bytedance.com",
+            bullets: [
+              "面向 Trea IDE 用户开展定向访谈，将使用反馈提炼为可执行产品洞察，与研发团队协作推动功能优化迭代",
+              "搭建用户案例内容账号，制定图文与视频内容 SOP，规范抖音、小红书双平台运营，累计发布内容获得 10万+ 曝光",
+              "主导3场校园推广活动，通过课堂推荐与分享会推动产品触达与注册增长",
+            ],
+          },
+          {
+            date: "2024年6月 – 8月",
+            role: "市场实习生",
+            org: "百度 · 北京",
+            domain: "baidu.com",
+            bullets: [
+              "执行百度 CTI AI 技术创新大赛多渠道传播方案，赛事整体实现 10万+ 曝光，吸引 4000+ 支队伍报名",
+              "对参赛团队数据进行清洗、分类与可视化整理，输出区域分布及阶段排名多维分析，为广告投放区域建议与官网内容更新提供数据支撑",
+            ],
+          },
+          {
+            date: "2024年3月 – 5月",
+            role: "品牌营销实习生",
+            org: "孩子王 · 南京",
+            domain: "cnkidswant.com",
+            bullets: [
+              "独立策划并上线育儿顾问员工专题栏目，单篇浏览量达3万+，登品牌搜索热度第一",
+              "编创品牌宣传曲，发起全国舞蹈挑战，推动大规模用户参与与品牌曝光",
+            ],
+          },
+          {
+            date: "2022年5月 – 10月",
+            role: "社交媒体实习生",
+            org: "南小宝信息科技 · WeCrush · 南京",
+            bullets: [
+              "调研交友应用市场，分析小红书、抖音、微信视频号、微博等平台的竞品策略与用户行为",
+              "参与 WeCrush 应用上线，涵盖市场定位、社区设计与内容规划",
+            ],
+          },
+        ],
+      },
+      {
+        title: "课外经历",
+        items: [
+          {
+            date: "2023年5月 – 2024年6月",
+            role: "社长",
+            org: "南京大学Passion街舞社 · 南京",
+            bullets: [
+              "管理800+名成员，统筹8个舞种每周队训、每学期3次校内外比赛及年度周年庆演出",
+              "负责社媒运营与宣传物料设计，对接商业赞助商与外部舞社合作；荣获江苏省街舞联盟“优秀社团”称号",
+            ],
+          },
+          {
+            date: "2022年9月 – 2022年12月",
+            role: "志愿者",
+            org: "欧莱雅中国Youth有意思公益挑战赛 · 南京",
+            bullets: [
+              "参与护肤及彩妆产品分析，制作并分发宣传脚本与视觉内容",
+              "支持校园快闪、抖音直播等传播活动，提升大学生群体参与度与活动触达",
+            ],
+          },
+          {
+            date: "2022年5月 – 2024年10月",
+            role: "成员",
+            org: "南京大学未来编辑部 · 南京",
+            bullets: [
+              "于月度选题会提报30+条新闻选题，参与策划、采访与深度报道",
+              "编辑发布20+篇新闻稿至官方公众号，涵盖图文设计、视频剪辑、排版与数据分析",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  projects: {
+    label: "项目经历",
+    heading: "精选项目",
+    featured: {
+      tag: "产品设计 · AI · Web 平台",
+      titleFirst: "Club",
+      titleAccent: "Match",
+      linkText: "查看 Demo ↗",
+      linkUrl: "https://clubmatch-nine.vercel.app/",
+      desc: "一款面向高校场景的社团招新智能匹配平台，通过 AI 兴趣建模连接学生与合适社团——解决传统校园招新中长期存在的信息不对称与流程低效问题。",
+      leftLabel: "市场痛点",
+      leftPoints: [
+        "新生只能依赖线下摊位、海报、同学推荐等零散渠道了解社团，缺乏结构化的发现与比较路径",
+        "社团招新多依赖纸质报名表、微信群与人工 Excel 统计，重复劳动多，流程容易出错",
+        "匹配精度不足，新生海投盲投，入社后留存率低，社团与学生双方效率均受损",
+      ],
+      rightLabel: "平台功能",
+      rightPoints: [
+        "AI 兴趣测评根据兴趣、时间投入与性格倾向为学生匹配社团，支持一键复用资料报名",
+        "三端架构：学生端发现与报名，社团端管理候选人与面试，学校端审核与规则配置",
+        "完整招新闭环：发现 → 报名 → 筛选 → 面试预约 → 录取通知",
+      ],
+      status: "个人项目 · 进行中",
+    },
+    cards: [
+      {
+        tag: "战略咨询 · 交付物",
+        title: "Valiha Diffusion — 清洁燃料商业战略",
+        desc: "BlackMont 咨询8周项目，服务对象为刚果（金）与马达加斯加竹炭清洁燃料企业 Valiha Diffusion。交付五大工作流：市场诊断、三情景财务模型、投资人叙事、融资路径规划（赠款 / 影响力股权 / 混合融资），以及12–24个月增长路线图，最终形成完整融资战略包。",
+      },
+      {
+        tag: "数据分析 · 饮品产品设计 · LSE",
+        title: "饮品产品设计 — 收益最大化",
+        desc: "LSE 市场分析课程组队项目。基于49份问卷数据，综合运用数据可视化、多元回归、联合分析（条件 Logit 模型）、WTP 预测与蒙特卡洛定价仿真，设计最优溢价咖啡饮品。最终产品预计市场份额25%，£6.00定价下预期营收£93.05。全程使用 Python 与 AI 辅助编程。",
+      },
+      {
+        tag: "短视频 · 内容创作 · 获奖作品",
+        title: "我还是最爱南京",
+        desc: "围绕南京特色街巷提供选题创意，负责信息搜集整理、文案撰写、视频配音与剪辑，与团队合作荣获全国大学生短视频大赛三等奖。",
+        links: [
+          { label: "Bilibili观看 ↗", href: "https://www.bilibili.com/video/BV1km411C7yY" },
+          { label: "视频号观看 ↗", href: "https://weixin.qq.com/sph/AZp6EVLA8" },
+        ],
+      },
+      {
+        tag: "数据新闻 · 消费者洞察 · 市场分析",
+        title: "运动热潮下，谁赢得国人青睐？",
+        desc: "深度调查中国4534亿元运动服装市场，爬取小红书平台Lululemon相关帖文数据并进行词频分析，对标11个品牌价格区间，结合行业报告分析供应链现状，产出消费者行为与竞争格局数据可视化报告。",
+      },
+    ],
+  },
+
+  skills: {
+    label: "专业技能",
+    heading: "核心能力",
+    languagesLabel: "语言能力",
+    languages: [
+      { name: "普通话", level: "母语" },
+      { name: "英语", level: "流利" },
+    ],
+    toolsLabel: "工具与专业技能",
+    tools: [
+      "市场策略",
+      "SEO / SEM",
+      "内容策略",
+      "A/B 测试",
+      "产品运营",
+      "Excel 数据分析",
+      "数据可视化",
+      "Python / R",
+      "Vibe Coding",
+      "跨文化传播",
+      "数据分析",
+      "SOP 设计",
+      "用户研究",
+      "战略叙事",
+    ],
+  },
+
+  contact: {
+    name: "关敬心",
+    tagline: "战略传播与市场 · 伦敦",
+    links: [
+      { label: "邮箱", href: "mailto:jingxinguan1231@163.com" },
+      {
+        label: "LinkedIn",
+        href: "https://www.linkedin.com/in/jingxin-guan-508738358",
+        external: true,
+      },
+      {
+        label: "Instagram",
+        href: "https://www.instagram.com/suziiinn_g",
+        external: true,
+      },
+      { label: "下载简历", href: "/cv-zh.pdf", download: true },
+    ],
+    copyright: "© 2026 关敬心",
+    cta: "发送邮件 →",
+    ctaHref: "mailto:jingxinguan1231@163.com",
+  },
+};
