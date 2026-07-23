@@ -231,13 +231,13 @@ export const content: Content = {
     },
     cards: [
       {
-        tag: "AI Content Production · PRD · MVP Demo",
+        tag: "AI Content Production · PRD · MVP Prototype",
         title: "AI Video Collaboration Workbench",
-        desc: "Developed during my Tencent WXG internship from real AIGC production pain points: repeated trial-and-error, fragmented assets, scattered feedback, and version-tracking friction. This is an MVP demo only, built to validate core workflow concepts such as project-level asset management, prompt reuse, segment canvases, external generation handoff, object-based comments, and task notifications. It does not represent a formally launched product.",
+        desc: "Developed during my Tencent WXG internship from real AIGC production pain points: repeated trial-and-error, fragmented assets, scattered feedback, and version-tracking friction. This link is an interactive MVP prototype, built to validate core workflow concepts such as project-level asset management, prompt reuse, segment canvases, external generation handoff, object-based comments, and task notifications. It does not represent a formally launched product.",
         wide: true,
         links: [
           {
-            label: "View MVP Demo ↗",
+            label: "View MVP ↗",
             href: "https://ai-video-platform-flax.vercel.app",
           },
         ],

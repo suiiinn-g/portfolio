@@ -218,13 +218,13 @@ export const content: Content = {
     },
     cards: [
       {
-        tag: "AI 内容生产 · PRD · MVP Demo",
+        tag: "AI 内容生产 · PRD · MVP 原型",
         title: "市场部 AI 视频协作工作台",
-        desc: "腾讯 WXG 实习期间，基于 AIGC 视频生产中的重复试错、素材分散、版本反馈难追踪等痛点，设计面向市场团队的 AI 视频生产协作工作台。该版本为 MVP demo 展示，用于验证项目资产管理、Prompt 沉淀、片段画布、外部生成回传、对象化评论与通知等核心流程，不代表正式上线产品。",
+        desc: "腾讯 WXG 实习期间，基于 AIGC 视频生产中的重复试错、素材分散、版本反馈难追踪等痛点，设计面向市场团队的 AI 视频生产协作工作台。该链接为可交互 MVP 原型展示，用于验证项目资产管理、Prompt 沉淀、片段画布、外部生成回传、对象化评论与通知等核心流程，不代表正式上线产品。",
         wide: true,
         links: [
           {
-            label: "MVP Demo 展示 ↗",
+            label: "查看 MVP ↗",
             href: "https://ai-video-platform-flax.vercel.app",
           },
         ],

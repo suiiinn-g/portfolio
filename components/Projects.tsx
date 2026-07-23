@@ -146,39 +146,60 @@ function SmallCard({
       style={{ transitionDelay: `${(index % 2) * 0.08}s` }}
     >
       <article className="project-card project-card-small h-full bg-ink p-7 md:p-9">
-        <p
-          className={`font-medium uppercase text-accent ${labelTracking(lang)}`}
-          style={{ fontSize: labelSize(lang, "0.68rem") }}
-        >
-          {card.tag}
-        </p>
-        <h3
-          className={`mt-3 text-[1.4rem] font-bold leading-tight text-cream ${displayFont(lang)}`}
-        >
-          {card.title}
-        </h3>
+        <div className="flex flex-col gap-5 md:flex-row md:items-start md:justify-between">
+          <div>
+            <p
+              className={`font-medium uppercase text-accent ${labelTracking(lang)}`}
+              style={{ fontSize: labelSize(lang, "0.68rem") }}
+            >
+              {card.tag}
+            </p>
+            <h3
+              className={`mt-3 text-[1.4rem] font-bold leading-tight text-cream ${displayFont(lang)}`}
+            >
+              {card.title}
+            </h3>
+          </div>
+          {card.wide && card.links && card.links.length > 0 && (
+            <ProjectLinks links={card.links} lang={lang} />
+          )}
+        </div>
         <p
           className="mt-4 text-[0.92rem] text-pretty"
           style={{ color: "rgba(250, 247, 245, 0.5)", lineHeight: 1.65 }}
         >
           {card.desc}
         </p>
-        {card.links && card.links.length > 0 && (
-          <div className="mt-6 flex flex-wrap gap-3">
-            {card.links.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`inline-flex items-center gap-2 bg-accent px-6 py-3 text-[0.82rem] font-semibold uppercase text-ink shadow-[0_8px_24px_-8px_rgba(140,106,63,0.5)] transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_32px_-8px_rgba(140,106,63,0.7)] ${uiTracking(lang, "tracking-[0.14em]")}`}
-              >
-                {link.label}
-              </a>
-            ))}
-          </div>
+        {!card.wide && card.links && card.links.length > 0 && (
+          <ProjectLinks links={card.links} lang={lang} className="mt-6" />
         )}
       </article>
+    </div>
+  );
+}
+
+function ProjectLinks({
+  links,
+  lang,
+  className = "",
+}: {
+  links: { label: string; href: string }[];
+  lang: Lang;
+  className?: string;
+}) {
+  return (
+    <div className={`flex flex-wrap gap-3 ${className}`}>
+      {links.map((link) => (
+        <a
+          key={link.href}
+          href={link.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`inline-flex w-fit shrink-0 items-center gap-2 bg-accent px-6 py-3 text-[0.82rem] font-semibold uppercase text-ink shadow-[0_8px_24px_-8px_rgba(140,106,63,0.5)] transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_32px_-8px_rgba(140,106,63,0.7)] ${uiTracking(lang, "tracking-[0.14em]")}`}
+        >
+          {link.label}
+        </a>
+      ))}
     </div>
   );
 }
