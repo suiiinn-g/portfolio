@@ -21,7 +21,7 @@ export const content: Content = {
   },
 
   hero: {
-    eyebrow: "Tencent WXG · LSE · NJU · TikTok · Baidu",
+    eyebrow: "Tencent WXG · LSE · NJU · ByteDance · Baidu",
     name: { line1: "Jing", accent: "xin", line2: "Guan" },
     tagline: [
       "Strategic marketer · AI-enabled content",
@@ -109,10 +109,10 @@ export const content: Content = {
             org: "Tencent · WXG · Guangzhou, China",
             domain: "tencent.com",
             bullets: [
-              "**AIGC production & workflow documentation:** Supported an AIGC video project for a WeChat AI-assistant marketing moment, coordinating script development, image/video generation, voiceover production, editing, model comparison, and reusable workflow documentation",
-              "**Production workflow productisation:** Translated repeated trial-and-error, fragmented assets, and collaboration friction in AIGC production into an AI video collaboration workbench PRD; used Vibe Coding to build an interactive MVP and validate the core workflow loop",
+              "**AIGC production & workflow documentation:** Supported an AIGC video project for WeChat AI assistant “Xiaowei” around a World Cup marketing moment, coordinating script development, image/video generation, voiceover production, editing, model comparison, and reusable workflow documentation",
+              "**Production workflow productisation:** Translated repeated trial-and-error, fragmented assets, and collaboration friction in AIGC production into an AI video collaboration workbench PRD; used Vibe Coding to build an interactive MVP and validate workflow efficiency gains",
               "**New-product development & mini-program prototyping:** Contributed to WeStore product development and promotion, following briefs, creative pitches, samples, and supplier communication; designed a virtual try-on mini program prototype covering user flows, feature planning, coupon claiming, and WeChat Store handoff",
-              "**Brand documentary planning & shoot coordination:** Planned and coordinated a brand documentary for a voice-recruitment story, covering theme development, scripting, interview outline design, shoot coordination, and material organisation",
+              "**Brand documentary planning & directing:** Served as documentary director for Xiaowei’s TTS voice recruitment project, covering theme development, scripting, interview outlines, shoot coordination, and material organisation to support Xiaowei’s voice personality and recruitment story",
             ],
           },
           {
@@ -121,20 +121,21 @@ export const content: Content = {
             org: "BlackMont Consulting · London, UK",
             domain: "blackmontconsulting.com",
             bullets: [
-              "**Operating diagnosis & workflow modelling:** Designed end-to-end operating blueprint (swimlane + RACI) for a DRC bamboo charcoal value chain, enabling repeatable rollout",
-              "**Market and financing strategy analysis:** Synthesised regulatory and MRV requirements into a flexible standards strategy to de-risk the finance pathway",
-              "**Investor materials & strategic narrative:** Distilled cross-functional inputs into board-ready pitch deck aligned to funder decision criteria",
+              "**Operating diagnosis & workflow modelling:** Analysed Valiha Diffusion’s bamboo charcoal clean-fuel scale-up challenge in the DRC, decomposing supply, production, quality control, distribution, and verification workflows into an end-to-end operating blueprint and RACI model",
+              "**Market and financing strategy analysis:** Assessed expansion risks across cost, capacity, policy, market demand, and MRV compliance; compared grants, impact equity, and blended-finance pathways to support staged financing decisions",
+              "**Investor materials & strategic narrative:** Integrated cross-team research into a structured strategic narrative, converting insights into an investor-facing growth roadmap and fundraising pitch script",
             ],
           },
           {
             date: "Aug – Oct 2024",
-            role: "Product Operations Intern",
-            org: "ByteDance · Trae · Beijing, China",
+            role: "AI Product Operations Intern",
+            org: "ByteDance · Flow-CloudIDE / Trae · Beijing, China",
             domain: "bytedance.com",
             bullets: [
-              "**User insight & product feedback:** Conducted user interviews for Trae; synthesised feedback into actionable product insights and collaborated with R&D on feature prioritisation",
-              "**AI product content operations & growth:** Built content accounts and designed SOPs across TikTok and RedNote to translate AI coding use cases into developer-facing stories",
-              "**Campus GTM & user reach:** Spearheaded 3 campus outreach initiatives driving new user acquisition through teaching recommendations",
+              "**User insight & product feedback:** Conducted targeted interviews and community operations for Trae, an AI coding assistant, mapping developer usage paths, feature pain points, and conversion barriers; synthesised feedback into product insights and collaborated with R&D on optimisation",
+              "**AI product content operations & growth:** Built user-case content accounts around AI coding efficiency, real usage scenarios, and developer stories; created SOPs for graphic/video production, review, and distribution across Douyin and RedNote",
+              "**Campus GTM & user reach:** Led 3 university promotion initiatives, coordinating with computer science professors, classroom scenarios, and student communities to drive awareness and registration conversion among campus developers",
+              "**Data-driven operations optimisation:** Tracked content impressions, engagement, and registration conversion, identified channel-specific bottlenecks, and proposed improvements to topic selection, distribution cadence, and campus promotion",
             ],
           },
           {
@@ -144,7 +145,7 @@ export const content: Content = {
             domain: "baidu.com",
             bullets: [
               "**AI competition integrated communications:** Supported multi-channel execution for the Baidu CTI AI Technology Innovation Competition, reaching 100,000+ impressions and attracting 4,000+ team registrations",
-              "**Data analysis & strategy support:** Built Excel dashboards from competition data; surfaced regional and stage-by-stage insights to guide regional communications priorities and website updates",
+              "**Data analysis & strategy support:** Cleaned, classified, and visualised participant-team data, producing multi-dimensional analysis on registrations, regional distribution, and stage rankings; coordinated with R&D on website content updates and ranking synchronisation to support regional communications priorities",
               "**Offline event coordination:** Supported the launch event, 12 campus roadshows, technology conference, and final ceremony, coordinating vendors on venues, materials, run-of-show, and on-site execution to convert online reach into offline participation",
             ],
           },
@@ -154,9 +155,9 @@ export const content: Content = {
             org: "Kidswant · Nanjing, China",
             domain: "cnkidswant.com",
             bullets: [
-              "**Content strategy & growth:** Launched employee spotlight column scaling to 30,000+ views per article, achieving top branded search rankings",
+              "**Content strategy & growth:** Independently planned and launched an employee spotlight column for parenting consultants, reaching 30,000+ views per article and ranking first in branded search heat; continuously optimised website and social content strategy based on performance data",
               "**Multi-format content production:** Wrote video scripts, produced short videos, and delivered long-form graphics and posters while maintaining brand visual consistency and content tone",
-              "**Campaign planning & brand interaction:** Led brand anthem creation and nationwide dance challenge driving mass audience participation",
+              "**Campaign planning & execution:** Coordinated company promotional activities, created a brand anthem, and launched a nationwide dance challenge to drive large-scale user participation and brand exposure",
             ],
           },
           {
