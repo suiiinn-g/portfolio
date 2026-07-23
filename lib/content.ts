@@ -56,6 +56,8 @@ export type SmallProject = {
   desc: string;
   /** Optional external links rendered as small buttons under the description. */
   links?: { label: string; href: string }[];
+  /** Span the card across the two-column project grid on desktop. */
+  wide?: boolean;
 };
 
 export type LanguageTag = { name: string; level: string };

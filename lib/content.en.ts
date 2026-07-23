@@ -229,6 +229,18 @@ export const content: Content = {
     },
     cards: [
       {
+        tag: "AI Content Production · PRD · MVP Demo",
+        title: "AI Video Collaboration Workbench",
+        desc: "Developed during my Tencent WXG internship from real AIGC production pain points: repeated trial-and-error, fragmented assets, scattered feedback, and version-tracking friction. This is an MVP demo only, built to validate core workflow concepts such as project-level asset management, prompt reuse, segment canvases, external generation handoff, object-based comments, and task notifications. It does not represent a formally launched product.",
+        wide: true,
+        links: [
+          {
+            label: "View MVP Demo ↗",
+            href: "https://ai-video-platform-flax.vercel.app",
+          },
+        ],
+      },
+      {
         tag: "Strategy · Consulting · Deliverable",
         title: "Valiha Diffusion — Clean Cooking Fuel Strategy",
         desc: "8-week BlackMont Consulting engagement for Valiha Diffusion (BIO-KALA bamboo charcoal, DRC & Madagascar). Delivered five workstreams — market diagnosis, 3-scenario financial model, investor narrative, funding pathway (grants / impact equity / blended finance), and a 12–24 month growth roadmap — culminating in a board-ready strategic package for client fundraising.",

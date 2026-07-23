@@ -216,6 +216,18 @@ export const content: Content = {
     },
     cards: [
       {
+        tag: "AI 内容生产 · PRD · MVP Demo",
+        title: "市场部 AI 视频协作工作台",
+        desc: "腾讯 WXG 实习期间，基于 AIGC 视频生产中的重复试错、素材分散、版本反馈难追踪等痛点，设计面向市场团队的 AI 视频生产协作工作台。该版本为 MVP demo 展示，用于验证项目资产管理、Prompt 沉淀、片段画布、外部生成回传、对象化评论与通知等核心流程，不代表正式上线产品。",
+        wide: true,
+        links: [
+          {
+            label: "MVP Demo 展示 ↗",
+            href: "https://ai-video-platform-flax.vercel.app",
+          },
+        ],
+      },
+      {
         tag: "战略咨询 · 交付物",
         title: "Valiha Diffusion — 清洁燃料商业战略",
         desc: "BlackMont 咨询8周项目，服务对象为刚果（金）与马达加斯加竹炭清洁燃料企业 Valiha Diffusion。交付五大工作流：市场诊断、三情景财务模型、投资人叙事、融资路径规划（赠款 / 影响力股权 / 混合融资），以及12–24个月增长路线图，最终形成完整融资战略包。",

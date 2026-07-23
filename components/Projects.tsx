@@ -139,7 +139,7 @@ function SmallCard({
   return (
     <div
       ref={ref}
-      className={"reveal-card" + v}
+      className={"reveal-card" + v + (card.wide ? " md:col-span-2" : "")}
       // In a 2-col grid, both cards on a row enter the viewport together.
       // Use the column position (0 or 1) as the stagger so each row cascades
       // without compounding delays across rows.
