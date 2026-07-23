@@ -212,7 +212,7 @@ export const content: Content = {
       tag: "Product Design · AI · Web Platform",
       titleFirst: "Club",
       titleAccent: "Match",
-      linkText: "View demo ↗",
+      linkText: "View Demo ↗",
       linkUrl: "https://clubmatch-nine.vercel.app/",
       desc: "An AI-powered university club recruitment platform connecting students with the right clubs through intelligent matching — addressing the information asymmetry and workflow inefficiency that defines traditional campus recruitment.",
       leftLabel: "The gap",
