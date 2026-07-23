@@ -155,15 +155,8 @@ export default function Hero({ content, lang }: Props) {
             style={{ animationDelay: "0.95s" }}
           >
             <a
-              href={lang === "zh" ? "/cv-zh.pdf" : "/cv.pdf"}
-              download
-              className={`inline-flex items-center gap-2 bg-ink px-6 py-3 text-[0.74rem] font-semibold uppercase text-cream transition-colors hover:bg-accent ${uiTracking(lang, "tracking-[0.12em]")}`}
-            >
-              {content.cta.primary}
-            </a>
-            <a
               href="#contact"
-              className={`inline-flex items-center border border-cream-3 px-6 py-3 text-[0.74rem] font-semibold uppercase text-ink-2 transition-colors hover:border-ink-3 ${uiTracking(lang, "tracking-[0.12em]")}`}
+              className={`inline-flex items-center bg-ink px-6 py-3 text-[0.74rem] font-semibold uppercase text-cream transition-colors hover:bg-accent ${uiTracking(lang, "tracking-[0.12em]")}`}
             >
               {content.cta.secondary}
             </a>

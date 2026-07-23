@@ -33,7 +33,7 @@ export const content: Content = {
       // The \n is a mobile-only line break — desktop joins the two halves with " · ".
       "Consumer Internet Marketing · Product Operations\nData Analytics · Business Consulting",
     ],
-    cta: { primary: "Download CV ↓", secondary: "Get in touch" },
+    cta: { secondary: "Get in touch" },
   },
 
   stats: [
@@ -314,7 +314,6 @@ export const content: Content = {
         href: "https://www.instagram.com/suziiinn_g",
         external: true,
       },
-      { label: "Download CV", href: "/cv.pdf", download: true },
     ],
     copyright: "© 2026 Jingxin Guan",
     cta: "Get in touch →",

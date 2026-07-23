@@ -29,7 +29,7 @@ export const content: Content = {
       "3国求学 · 4所高校",
       "消费互联网营销 · 产品运营 · 数据分析 · 商业咨询",
     ],
-    cta: { primary: "下载简历 ↓", secondary: "联系我" },
+    cta: { secondary: "联系我" },
   },
 
   stats: [
@@ -301,7 +301,6 @@ export const content: Content = {
         href: "https://www.instagram.com/suziiinn_g",
         external: true,
       },
-      { label: "下载简历", href: "/cv-zh.pdf", download: true },
     ],
     copyright: "© 2026 关敬心",
     cta: "发送邮件 →",

@@ -87,7 +87,7 @@ export type Content = {
     /** One entry per visible line. */
     tagline: string[];
     bio: string[];
-    cta: { primary: string; secondary: string };
+    cta: { secondary: string };
   };
 
   stats: Stat[];
