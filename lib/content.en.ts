@@ -145,6 +145,7 @@ export const content: Content = {
             bullets: [
               "**AI competition integrated communications:** Supported multi-channel execution for the Baidu CTI AI Technology Innovation Competition, reaching 100,000+ impressions and attracting 4,000+ team registrations",
               "**Data analysis & strategy support:** Built Excel dashboards from competition data; surfaced regional and stage-by-stage insights to guide regional communications priorities and website updates",
+              "**Offline event coordination:** Supported the launch event, 12 campus roadshows, technology conference, and final ceremony, coordinating vendors on venues, materials, run-of-show, and on-site execution to convert online reach into offline participation",
             ],
           },
           {
@@ -154,6 +155,7 @@ export const content: Content = {
             domain: "cnkidswant.com",
             bullets: [
               "**Content strategy & growth:** Launched employee spotlight column scaling to 30,000+ views per article, achieving top branded search rankings",
+              "**Multi-format content production:** Wrote video scripts, produced short videos, and delivered long-form graphics and posters while maintaining brand visual consistency and content tone",
               "**Campaign planning & brand interaction:** Led brand anthem creation and nationwide dance challenge driving mass audience participation",
             ],
           },
