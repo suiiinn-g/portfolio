@@ -84,6 +84,21 @@ function FeaturedCard({
         >
           {featured.desc}
         </p>
+        <div
+          className="mt-6 grid gap-7 pt-6 md:grid-cols-2"
+          style={{ borderTop: "1px solid rgba(255, 255, 255, 0.08)" }}
+        >
+          <BulletColumn
+            label={featured.leftLabel}
+            items={featured.leftPoints}
+            lang={lang}
+          />
+          <BulletColumn
+            label={featured.rightLabel}
+            items={featured.rightPoints}
+            lang={lang}
+          />
+        </div>
       </article>
     </div>
   );
@@ -167,6 +182,40 @@ function ProjectLinks({
           {link.label}
         </a>
       ))}
+    </div>
+  );
+}
+
+function BulletColumn({
+  label,
+  items,
+  lang,
+}: {
+  label: string;
+  items: string[];
+  lang: Lang;
+}) {
+  return (
+    <div>
+      <p
+        className={`font-medium uppercase text-accent ${labelTracking(lang)}`}
+        style={{ fontSize: labelSize(lang, "0.68rem") }}
+      >
+        {label}
+      </p>
+      <ul
+        className="mt-4 space-y-2.5 text-[0.9rem]"
+        style={{ color: "rgba(250, 247, 245, 0.6)", lineHeight: 1.6 }}
+      >
+        {items.map((item, j) => (
+          <li key={j} className="flex gap-3">
+            <span aria-hidden className="select-none text-accent">
+              —
+            </span>
+            <span>{item}</span>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
