@@ -109,10 +109,10 @@ export const content: Content = {
             org: "Tencent · WXG · Guangzhou, China",
             domain: "tencent.com",
             bullets: [
-              "Supported an AIGC video project for a WeChat AI-assistant marketing moment, coordinating script development, image/video generation, voiceover production, editing, model comparison, and reusable workflow documentation",
-              "Translated repeated trial-and-error, fragmented assets, and collaboration friction in AIGC production into an AI video collaboration workbench PRD; used Vibe Coding to build an interactive MVP and validate the core workflow loop",
-              "Contributed to WeStore product development and promotion, following briefs, creative pitches, samples, and supplier communication; designed a virtual try-on mini program prototype covering user flows, feature planning, coupon claiming, and WeChat Store handoff",
-              "Planned and coordinated a brand documentary for a voice-recruitment story, covering theme development, scripting, interview outline design, shoot coordination, and material organisation",
+              "**AIGC production & workflow documentation:** Supported an AIGC video project for a WeChat AI-assistant marketing moment, coordinating script development, image/video generation, voiceover production, editing, model comparison, and reusable workflow documentation",
+              "**Production workflow productisation:** Translated repeated trial-and-error, fragmented assets, and collaboration friction in AIGC production into an AI video collaboration workbench PRD; used Vibe Coding to build an interactive MVP and validate the core workflow loop",
+              "**New-product development & mini-program prototyping:** Contributed to WeStore product development and promotion, following briefs, creative pitches, samples, and supplier communication; designed a virtual try-on mini program prototype covering user flows, feature planning, coupon claiming, and WeChat Store handoff",
+              "**Brand documentary planning & shoot coordination:** Planned and coordinated a brand documentary for a voice-recruitment story, covering theme development, scripting, interview outline design, shoot coordination, and material organisation",
             ],
           },
           {
@@ -121,30 +121,30 @@ export const content: Content = {
             org: "BlackMont Consulting · London, UK",
             domain: "blackmontconsulting.com",
             bullets: [
-              "Designed end-to-end operating blueprint (swimlane + RACI) for a DRC bamboo charcoal value chain, enabling repeatable rollout",
-              "Synthesised regulatory and MRV requirements into a flexible standards strategy to de-risk the finance pathway",
-              "Distilled cross-functional inputs into board-ready pitch deck aligned to funder decision criteria",
+              "**Operating diagnosis & workflow modelling:** Designed end-to-end operating blueprint (swimlane + RACI) for a DRC bamboo charcoal value chain, enabling repeatable rollout",
+              "**Market and financing strategy analysis:** Synthesised regulatory and MRV requirements into a flexible standards strategy to de-risk the finance pathway",
+              "**Investor materials & strategic narrative:** Distilled cross-functional inputs into board-ready pitch deck aligned to funder decision criteria",
             ],
           },
           {
             date: "Aug – Oct 2024",
             role: "Product Operations Intern",
-            org: "ByteDance (TikTok) · Trea IDE · Beijing, China",
+            org: "ByteDance · Trae · Beijing, China",
             domain: "bytedance.com",
             bullets: [
-              "Conducted user interviews for Trea IDE; synthesised feedback into actionable product insights and collaborated with R&D on feature prioritisation",
-              "Built content accounts and designed SOPs across TikTok and RedNote, achieving 100,000+ views",
-              "Spearheaded 3 campus outreach initiatives driving new user acquisition through teaching recommendations",
+              "**User insight & product feedback:** Conducted user interviews for Trae; synthesised feedback into actionable product insights and collaborated with R&D on feature prioritisation",
+              "**AI product content operations & growth:** Built content accounts and designed SOPs across TikTok and RedNote to translate AI coding use cases into developer-facing stories",
+              "**Campus GTM & user reach:** Spearheaded 3 campus outreach initiatives driving new user acquisition through teaching recommendations",
             ],
           },
           {
             date: "Jun – Aug 2024",
             role: "Marketing Intern",
-            org: "Baidu · Beijing, China",
+            org: "Baidu · MEG · Beijing, China",
             domain: "baidu.com",
             bullets: [
-              "Executed multi-channel strategy for Baidu CTI competition — 100,000+ impressions, 4,000+ team registrations",
-              "Built Excel dashboards from competition data; surfaced regional and stage-by-stage insights to guide advertising placement",
+              "**AI competition integrated communications:** Supported multi-channel execution for the Baidu CTI AI Technology Innovation Competition, reaching 100,000+ impressions and attracting 4,000+ team registrations",
+              "**Data analysis & strategy support:** Built Excel dashboards from competition data; surfaced regional and stage-by-stage insights to guide regional communications priorities and website updates",
             ],
           },
           {
@@ -153,8 +153,8 @@ export const content: Content = {
             org: "Kidswant · Nanjing, China",
             domain: "cnkidswant.com",
             bullets: [
-              "Launched employee spotlight column scaling to 30,000+ views per article, achieving top branded search rankings",
-              "Led brand anthem creation and nationwide dance challenge driving mass audience participation",
+              "**Content strategy & growth:** Launched employee spotlight column scaling to 30,000+ views per article, achieving top branded search rankings",
+              "**Campaign planning & brand interaction:** Led brand anthem creation and nationwide dance challenge driving mass audience participation",
             ],
           },
           {
@@ -162,8 +162,8 @@ export const content: Content = {
             role: "Social Media Intern",
             org: "Nanxiaobao · WeCrush · Nanjing, China",
             bullets: [
-              "Researched dating app market; analysed competitor strategies across RedNote, Douyin, WeChat Channels, and Weibo",
-              "Contributed to WeCrush app launch — market positioning, community design, and content planning",
+              "**Competitor research & user insight:** Researched dating app market; analysed competitor strategies across RedNote, Douyin, WeChat Channels, and Weibo",
+              "**Product launch & community planning:** Contributed to WeCrush app launch — market positioning, community design, and content planning",
             ],
           },
         ],

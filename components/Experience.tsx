@@ -5,6 +5,7 @@ import type { Content, ExperienceItem, Lang } from "@/lib/content";
 import { displayFont, labelSize, labelTracking } from "@/lib/lang";
 import SectionLabel from "./SectionLabel";
 import Logo from "./Logo";
+import RichText from "./RichText";
 
 type Props = {
   content: Content["experience"];
@@ -100,7 +101,9 @@ function TimelineItem({
               <span aria-hidden className="select-none text-accent">
                 —
               </span>
-              <span>{b}</span>
+              <span>
+                <RichText text={b} />
+              </span>
             </li>
           ))}
         </ul>
