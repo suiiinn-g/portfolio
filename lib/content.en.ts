@@ -4,7 +4,7 @@ export const content: Content = {
   meta: {
     title: "Jingxin Guan — Strategic Marketer",
     description:
-      "Portfolio of Jingxin Guan — MSc Strategic Communications at LSE. Marketing strategy, product thinking, and data across cultures and functions.",
+      "Portfolio of Jingxin Guan — MSc Strategic Communications at LSE. Consumer internet marketing, AI-enabled content production, product thinking, and data-driven strategy.",
   },
 
   nav: {
@@ -21,17 +21,17 @@ export const content: Content = {
   },
 
   hero: {
-    eyebrow: "LSE · NJU · TikTok · Baidu",
+    eyebrow: "Tencent WXG · LSE · NJU · TikTok · Baidu",
     name: { line1: "Jing", accent: "xin", line2: "Guan" },
     tagline: [
-      "Strategic marketer · Data-driven",
-      "Product-minded · Cross-cultural",
+      "Strategic marketer · AI-enabled content",
+      "Product-minded · Data-driven",
     ],
     bio: [
       "MSc Strategic Communications at LSE.",
       "3 Countries · 4 Universities",
       // The \n is a mobile-only line break — desktop joins the two halves with " · ".
-      "Brand Marketing · Data Analytics\nProduct Operations · Business Consulting",
+      "Consumer Internet Marketing · Product Operations\nData Analytics · Business Consulting",
     ],
     cta: { primary: "Download CV ↓", secondary: "Get in touch" },
   },
@@ -51,7 +51,7 @@ export const content: Content = {
     },
     paragraphs: [
       "Currently completing an **MSc in Strategic Communications & Society** at the London School of Economics, building on a journalism foundation from Nanjing University and exchange studies at UC Berkeley and the University of Stirling.",
-      "Working at the intersection of **marketing strategy, product thinking, and data** — having executed campaigns reaching 100,000+ audiences at Baidu, built product operations SOPs at ByteDance, and delivered consulting frameworks at BlackMont.",
+      "Working at the intersection of **marketing strategy, AI-enabled content production, product thinking, and data** — prototyping WeChat ecosystem experiences at Tencent WXG, building AI product operations SOPs at ByteDance, supporting a 100,000+ impression AI competition campaign at Baidu, and delivering consulting frameworks at BlackMont.",
       "Fluent in navigating between **Eastern and Western markets**, I bring cultural fluency and structured thinking to every brief — whether that's a brand campaign, a product launch, or a strategic presentation.",
     ],
     beyondWork: {
@@ -103,6 +103,18 @@ export const content: Content = {
       {
         title: "Work Experience",
         items: [
+          {
+            date: "Jun 2026 – Present",
+            role: "Consumer Internet Marketing Intern",
+            org: "Tencent · WXG · Guangzhou, China",
+            domain: "tencent.com",
+            bullets: [
+              "Supported an AIGC video project for a WeChat AI-assistant marketing moment, coordinating script development, image/video generation, voiceover production, editing, model comparison, and reusable workflow documentation",
+              "Translated repeated trial-and-error, fragmented assets, and collaboration friction in AIGC production into an AI video collaboration workbench PRD; used Vibe Coding to build an interactive MVP and validate the core workflow loop",
+              "Contributed to WeStore product development and promotion, following briefs, creative pitches, samples, and supplier communication; designed a virtual try-on mini program prototype covering user flows, feature planning, coupon claiming, and WeChat Store handoff",
+              "Planned and coordinated a brand documentary for a voice-recruitment story, covering theme development, scripting, interview outline design, shoot coordination, and material organisation",
+            ],
+          },
           {
             date: "Jan – Apr 2026",
             role: "Business Consultant Intern",
@@ -262,6 +274,8 @@ export const content: Content = {
       "Data Visualisation",
       "Python / R",
       "Vibe Coding",
+      "PRD Design",
+      "AI Prototyping",
       "Cross-cultural Comms",
       "Data Analytics",
       "SOP Design",
