@@ -21,11 +21,11 @@ export const content: Content = {
   },
 
   hero: {
-    eyebrow: "Strategic Communications & Marketing · AI Product Operations · Data Analytics",
+    eyebrow: "LSE · Nanjing University · Tencent WXG · ByteDance · Baidu",
     name: { line1: "Jing", accent: "xin", line2: "Guan" },
     tagline: [
-      "Strategic marketer · AI-enabled content",
-      "Product-minded · Data-driven",
+      "Strategic communications · Marketing strategy",
+      "Product thinking · Data-driven",
     ],
     bio: [
       "MSc Strategic Communications at LSE.",
@@ -52,7 +52,7 @@ export const content: Content = {
     paragraphs: [
       "Currently completing an **MSc in Strategic Communications & Society** at the London School of Economics, building on a journalism foundation from Nanjing University and exchange studies at UC Berkeley and the University of Stirling.",
       "Working at the intersection of **marketing strategy, AI-enabled content production, product thinking, and data** — prototyping WeChat ecosystem experiences at Tencent WXG, building AI product operations SOPs at ByteDance, supporting a 100,000+ impression AI competition campaign at Baidu, and delivering consulting frameworks at BlackMont.",
-      "Fluent in navigating between **Eastern and Western markets**, I bring cultural fluency and structured thinking to every brief — whether that's a brand campaign, a product launch, or a strategic presentation.",
+      "Bilingual in Mandarin and English with strong cross-cultural communication skills, I move comfortably across **Eastern and Western market contexts**, bringing structured thinking and communications instinct to brand, product operations, and business consulting work.",
     ],
     beyondWork: {
       label: "Beyond work",
@@ -228,7 +228,6 @@ export const content: Content = {
         "Three-sided platform: students discover and apply; clubs manage candidates and interviews; schools oversee the full process",
         "Full workflow from discovery → application → screening → interview scheduling → acceptance notification",
       ],
-      status: "Personal project · In progress",
     },
     cards: [
       {

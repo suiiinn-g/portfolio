@@ -47,7 +47,6 @@ export type FeaturedProject = {
   leftPoints: string[];
   rightLabel: string;
   rightPoints: string[];
-  status: string;
 };
 
 export type SmallProject = {
