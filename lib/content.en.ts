@@ -21,7 +21,7 @@ export const content: Content = {
   },
 
   hero: {
-    eyebrow: "Tencent WXG · LSE · NJU · ByteDance · Baidu",
+    eyebrow: "Strategic Communications & Marketing · AI Product Operations · Data Analytics",
     name: { line1: "Jing", accent: "xin", line2: "Guan" },
     tagline: [
       "Strategic marketer · AI-enabled content",
@@ -249,9 +249,9 @@ export const content: Content = {
         desc: "8-week BlackMont Consulting engagement for Valiha Diffusion (BIO-KALA bamboo charcoal, DRC & Madagascar). Delivered five workstreams — market diagnosis, 3-scenario financial model, investor narrative, funding pathway (grants / impact equity / blended finance), and a 12–24 month growth roadmap — culminating in a board-ready strategic package for client fundraising.",
       },
       {
-        tag: "Data Analysis · Drink Product Design · LSE",
-        title: "Drink Product Design — Revenue Optimisation",
-        desc: "LSE Marketing Analytics II group project. Designed an optimal premium cafe drink using survey data from 49 respondents — applying data visualisation, multiple regression, conjoint analysis (conditional logit), WTP estimation, and Monte Carlo pricing simulation. Final product achieved a projected 25% market share and £93.05 expected revenue at £6.00 price point. AI-assisted coding in Python throughout.",
+        tag: "Data Modelling · Pricing Optimisation · Distinction",
+        title: "Drink Product Design & Pricing Optimisation",
+        desc: "LSE Marketing Analytics course project awarded Distinction, where I served as project lead. Based on 149 consumer survey responses, applied regression, conjoint analysis, and discrete choice modelling to quantify product-attribute utility, price sensitivity, and willingness to pay; built a price-revenue curve to recommend the optimal product configuration and pricing strategy. Coordinated task allocation, timeline management, and deliverable review across an international team, aligning data-processing standards and analysis logic to deliver the project on time.",
       },
       {
         tag: "Short Film · Content Creation · Award-winning",

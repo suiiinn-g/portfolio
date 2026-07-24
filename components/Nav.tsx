@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import type { Content, Lang } from "@/lib/content";
-import { uiTracking } from "@/lib/lang";
+import { displayFont, uiTracking } from "@/lib/lang";
 
 type Props = {
   content: Content["nav"];
@@ -93,7 +93,7 @@ export default function Nav({ content, lang }: Props) {
       <div className="mx-auto flex h-full max-w-[1280px] items-center justify-between">
         <Link
           href={isZh ? "/zh" : "/"}
-          className="flex items-center font-[family-name:var(--font-playfair)] text-[1.15rem] font-bold leading-none text-ink tracking-tight"
+          className={`flex items-center text-[1.15rem] font-bold leading-none text-ink tracking-tight ${displayFont(lang)}`}
         >
           {content.logo}
         </Link>

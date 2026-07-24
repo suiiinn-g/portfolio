@@ -18,7 +18,7 @@ export default function HomePage({
   lang: Lang;
 }) {
   return (
-    <div className={bodyFont(lang)} data-lang={lang}>
+    <div className={bodyFont(lang)} data-lang={lang} lang={lang === "zh" ? "zh-CN" : "en"}>
       <Nav content={content.nav} lang={lang} />
       <main>
         <Hero content={content.hero} lang={lang} />

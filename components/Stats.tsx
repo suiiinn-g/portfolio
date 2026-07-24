@@ -50,11 +50,11 @@ function StatCell({
   const current = useCountUp(stat.value, animate);
   return (
     <div
-      className={`grid row-span-2 grid-rows-subgrid items-end justify-items-center px-6 text-center ${divider}`}
+      className={`grid row-span-2 grid-rows-subgrid items-end justify-items-center px-4 text-center md:px-6 ${divider}`}
     >
       <div
         className={`font-bold leading-none text-cream ${displayFont(lang)}`}
-        style={{ fontSize: "clamp(2.25rem, 4vw, 3.25rem)" }}
+        style={{ fontSize: "clamp(1.9rem, 8vw, 3.25rem)" }}
       >
         <span>{current}</span>
         <span className="text-accent">{stat.suffix}</span>
