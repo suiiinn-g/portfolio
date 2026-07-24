@@ -50,7 +50,7 @@ export default function Hero({ content, lang }: Props) {
       : "clamp(3.5rem, 8vw, 7.5rem)";
 
   // Chinese eyebrow + tagline render larger — small English point sizes look squashed in Han characters.
-  const eyebrowSize = lang === "zh" ? "0.95rem" : "0.7rem";
+  const eyebrowSize = lang === "zh" ? "0.86rem" : "0.7rem";
   const taglineSize = lang === "zh" ? "1.05rem" : "0.82rem";
 
   return (

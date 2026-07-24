@@ -93,7 +93,7 @@ export default function Nav({ content, lang }: Props) {
       <div className="mx-auto flex h-full max-w-[1280px] items-center justify-between">
         <Link
           href={isZh ? "/zh" : "/"}
-          className={`flex items-center text-[1.15rem] font-bold leading-none text-ink tracking-tight ${displayFont(lang)}`}
+          className={`flex h-full items-center pt-[2px] text-[1.15rem] font-bold leading-none text-ink tracking-tight ${displayFont(lang)}`}
         >
           {content.logo}
         </Link>

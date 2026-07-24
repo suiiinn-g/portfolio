@@ -42,7 +42,7 @@ export default function About({ content, lang }: Props) {
             style={{ lineHeight: 1.8 }}
           >
             {content.paragraphs.map((p, i) => (
-              <p key={i}>
+              <p key={i} className="text-pretty">
                 <RichText text={p} />
               </p>
             ))}
